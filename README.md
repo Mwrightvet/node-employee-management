@@ -1,4 +1,4 @@
-# Node Employee Tracker
+# Node Employee Management
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 by Melissa Wright
 
