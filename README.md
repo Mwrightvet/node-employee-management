@@ -18,14 +18,35 @@ Node Employee Tracker is a command-line application built with Node.js, Inquirer
 
 1. Install dependencies:
 
-```npm install```
+- **Node.js**: Ensure you have Node.js installed on your system. More details at [Node.js website](https://nodejs.org/).
 
-2. Set up MySQL database:
-- Ensure you have MySQL installed on your system.
-- Run the provided schema.sql and seeds.sql files to set up the database schema and seed data.
+```
+bash
+npm install node
+```
 
-3. Update MySQL connection settings:
-- Open index.js and add your MySQL password.
+- **MySQL**: Install MySQL server and MySQL command-line client on your system. More details at [MySQL website](https://dev.mysql.com/downloads/).
+
+```
+bash
+# Installation steps for MySQL may vary depending on your operating system. Please refer to the official documentation for detailed instructions.
+```
+
+- **MySQL2**: This is a Node.js driver for MySQL. You can install it using npm, the Node.js package manager, by running the following command in your terminal:
+
+```
+bash
+npm install mysql2
+```
+
+- **Inquirer**: This package will be used to interact with the user via the command line. You can install it using npm by running the following command:
+
+```
+bash
+npm install inquirer@8.2.4
+```
+
+- Once you have Node.js, MySQL, MySQL2, and Inquirer installed on your system, you should be all set to run the Node Employee Tracker project.
 
 ## Usage
 - To start the application, run the following command:
@@ -66,7 +87,7 @@ employee
 ```
 
 ## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please submit a pull request. 
+Contributions are welcome. If you find any issues or have suggestions for improvements, please submit a pull request. 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
