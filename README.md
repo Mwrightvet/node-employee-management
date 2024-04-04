@@ -16,18 +16,15 @@ Node Employee Tracker is a command-line application built with Node.js, Inquirer
 
 ## Installation
 
-1. Clone the repository:
-
-   ```git clone https://github.com/yourusername/node-employee-tracker.git```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```npm install```
 
-3. Set up MySQL database:
+2. Set up MySQL database:
 - Ensure you have MySQL installed on your system.
 - Run the provided schema.sql and seeds.sql files to set up the database schema and seed data.
-- Update MySQL connection settings:
+
+3. Update MySQL connection settings:
 - Open index.js and add your MySQL password.
 
 ## Usage
