@@ -68,6 +68,7 @@ employee
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please submit a pull request. 
 
-License
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
    
